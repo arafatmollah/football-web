@@ -14,12 +14,13 @@ main{
     margin: 0 auto;
 }
 
-.banner{
-    background-color: #E02C6D;
-    width: 100%;
+.banner-section{
+    background-color: blueviolet;
+    height: 80vh;
 }
 .banner-details{
     display: flex;
+    align-items: center;
     
 }
 .banner-description{
@@ -63,4 +64,23 @@ main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 0 auto;
+}
+
+.highlights{
+    display: flex;
+    justify-content: space-between;
+}
+.highlight{
+    width: 469px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+}
+.highlight-head h1{
+    font-size:48px;
 }

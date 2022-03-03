@@ -13,15 +13,19 @@ main{
     max-width: 90%;
     margin: 0 auto;
 }
-
 .banner-section{
-    background-color: blueviolet;
+  
+}
+.banner-section{
+    background-color: #2D25A0;
     height: 80vh;
+    width: 1440px;
+    max-width: 100%;
 }
 .banner-details{
     display: flex;
     align-items: center;
-    
+    justify-content: center;
 }
 .banner-description{
     
@@ -69,6 +73,8 @@ main{
 .highlights{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
 .highlight{
     width: 469px;

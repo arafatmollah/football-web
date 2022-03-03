@@ -7,3 +7,60 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+}
+main{
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.banner{
+    background-color: #E02C6D;
+    width: 100%;
+}
+.banner-details{
+    display: flex;
+    
+}
+.banner-description{
+    
+    Width:  485px;
+    Height:230px;
+    padding: 1em;
+}
+.banner-description h1{
+    font-size: 64px;
+    color: white;
+}
+.banner-description button{
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    margin: 15px;
+    padding: 7px 20px;
+}
+.banner-image img{
+    Width: 388px;
+    Height: 428px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    Width: 330px;
+    Height: 474px;
+    margin: 1em;
+    padding: 1em;
+    
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image img{
+    Width: 300px;   
+    Height: 256px;
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+}

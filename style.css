@@ -7,62 +7,69 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    
 }
 main{
-    width: 1440px;
-    max-width: 90%;
-    margin: 0 auto;
-}
-.banner-section{
-  
-}
-.banner-section{
     background-color: #2D25A0;
-    height: 80vh;
-    width: 1440px;
-    max-width: 100%;
+    max-height: 500px;
+}
+.banner-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .banner-details{
+   
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .banner-description{
-    
-    Width:  485px;
-    Height:230px;
-    padding: 1em;
+    Width: 485px;
+    Height: 230px;
 }
 .banner-description h1{
     font-size: 64px;
     color: white;
 }
-.banner-description button{
-    border: none;
-    background-color: #E02C6D;
-    color: white;
-    margin: 15px;
-    padding: 7px 20px;
+
+.banner-image{
+    width: 556.01px;
+    height: 438px;
 }
 .banner-image img{
-    Width: 388px;
-    Height: 428px;
+    width: 388px;
+    height: 428px;
 }
 
-.player{
+/* player section */
+.players{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+.player{
     Width: 330px;
     Height: 474px;
     margin: 1em;
     padding: 1em;
-    
     background-color: white;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-description{
+    padding: 1em;
 }
 .player-image img{
     Width: 300px;   
     Height: 256px;
+}
+.player-description p{
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+.player-name{
+    font-size: 28px;
 }
 .all-player{
     display: grid;
@@ -71,22 +78,61 @@ main{
 }
 
 .highlights{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 70px;
 }
 .highlight{
-    width: 469px;
-    height: 309px;
+    Width:469px;
+    Height: 241px;
+}
+.highlight-head h1{
+    font-size: 48px;
+}
+.highlight-text p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.highlight{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    justify-content: space-between;
 }
 .highlight-image img{
     width: 567px;
     height: 427px;
 }
-.highlight-head h1{
-    font-size:48px;
+.watch-button{
+    border: none;
+    width: 173px;
+    height: 44px;
+    margin-top: 20px;
+}
+.watch-button button{
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+.icon img{
+    width: 483.87px;
+    height: 110px;
+}
+.icon-style{
+    margin: 10px;
+    color: #6C6C6C;
+}
+.copyright p{
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+.footer{
+    flex-direction: column;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
 }

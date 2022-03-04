@@ -183,11 +183,13 @@ height: 427px;
 }
 @media only screen and (max-width: 688px) {
     .banner-description,.players,
-    .highlight-text{
+    .highlight-text,.jercy-details
+    {
         width: 100%;
         height: 100%;
     }
-    .banner-details,.all-player,.highlights-details{
+    .banner-details,.all-player,.highlights-details,.jercy-details
+    {
         grid-template-columns: repeat(1, 1fr);
     }
     .banner{

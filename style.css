@@ -13,7 +13,7 @@ body{
 /* Banner section styled  */
 .banner{
     background-color: #2D25A0;
-    height: 700px;
+    
 }
 
 .banner-head h1{
@@ -178,7 +178,7 @@ body{
 
 /* Small Animation  */
 .banner:hover,.player:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 .player,.banner{
     transition: transform 1.5s ease;
@@ -198,7 +198,11 @@ body{
     {
         grid-template-columns: repeat(1, 1fr);
     }
+    .highlight-text{
+        flex-wrap: wrap;
+    }
     .banner{
+        width: fit-content;
         height: fit-content;
     }
 }

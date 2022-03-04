@@ -13,28 +13,26 @@ main{
     background-color: #2D25A0;
     max-height: 500px;
 }
-.banner-section{
+
+.banner-details{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 79px;
 }
-.banner-details{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.banner-head{
+    width: 485px;
+height: 230px;
+}
+.banner-head h1{
+    color: #fff;
+    font-size: 64px;
 }
 .banner-description{
-    Width: 485px;
-    Height: 230px;
-}
-.banner-description h1{
-    font-size: 64px;
-    color: white;
-}
-
-.banner-image{
-    width: 556.01px;
-    height: 438px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: auto;
 }
 .banner-image img{
     width: 388px;
@@ -77,28 +75,32 @@ main{
     margin: 0 auto;
 }
 
-.highlights{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 70px;
-}
-.highlight{
-    Width:469px;
-    Height: 241px;
-}
-.highlight-head h1{
-    font-size: 48px;
-}
-.highlight-text p{
-    font-size: 16px;
-    color: #6C6C6C;
-}
-.highlight{
+/* Highlights style here */
+/* .highlights{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-between;
+    align-items: center;
+} */
+.highlight-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    justify-content: center;
+    padding: 0px;
+    width: 469px;
+    height: 309px;
 }
+.highlight-text h1{
+    font-size: 48px;
+    color: #0A0826;
+}
+.highlights-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 79px;
+}
+
 .highlight-image img{
     width: 567px;
     height: 427px;
@@ -109,7 +111,7 @@ main{
     height: 44px;
     margin-top: 20px;
 }
-.watch-button button{
+.watch-button{
     border: none;
     color: white;
     font-size: 16px;
